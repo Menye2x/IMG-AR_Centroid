@@ -1,0 +1,52 @@
+# OS / filesystem
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local development
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Build / generated directories
+dist/
+build/
+out/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+
+# Node.js (not required by the current single-file app, but safe for local tooling)
+node_modules/
+
+# Test / tooling artifacts
+playwright-report/
+test-results/
+.nyc_output/
+
+# Local OS/browser artifacts
+*.crdownload
+*.part
